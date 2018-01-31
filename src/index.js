@@ -26,7 +26,7 @@ const styled = type => (strings, ...tokens) => {
       className: [
         next.className,
         ...staticKeys,
-        ...keys,
+        ...keys
       ].join(' ').trim()
     }))
   }
